@@ -18,4 +18,4 @@ class MyPlugin(Star):
         a = time_long(time)
         b = volume(V)
         user_name = event.get_sender_name()
-        yield event.plain_result(f"Hello, {user_name}, 你坚持了{time}s哦，{a}.射出{V}ml,{b}!") 
+        yield event.plain_result(f"Nya!喵~, {user_name}, 你坚持了{time}s哦，{a}.射出{V}ml,{b}!") 
